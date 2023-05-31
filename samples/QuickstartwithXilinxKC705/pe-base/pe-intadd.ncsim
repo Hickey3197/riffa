@@ -1,0 +1,10 @@
++nc64bit
++access+r
++define+USE_PE_INTADD_TB
+
+pe-intadd.v
+
+../boards/kc705/ip/iploc/fwft_64x512_afull/fwft_64x512_afull_sim_netlist.v
+
++libext+.v
+-y ${XILINX_VIVADO}/data/verilog/src/unisims

@@ -1,0 +1,4 @@
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6vlx365t-ff1156-1 ibert_check.ngc ibert_check.ngd  
+map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ibert_check_map.ncd ibert_check.ngd ibert_check.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6vlx365t-ff1156-1 ibert_check.ngc ibert_check.ngd  
+map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ibert_check_map.ncd ibert_check.ngd ibert_check.pcf 

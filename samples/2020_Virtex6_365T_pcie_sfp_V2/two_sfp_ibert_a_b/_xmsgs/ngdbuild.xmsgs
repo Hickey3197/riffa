@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="ConstraintSystem" num="0" >Constraint &lt;NET &quot;U_IBERT_CHECK/U0/U_IBERT_CORE/ma_dclk&quot; TNM_NET = &quot;D_CLK&quot;;&gt; [src/top.ucf(64)] was not distributed to the output pin TXOUTCLK of block U0/U_IBERT_CORE/U_GTCPX_X0Y17/U_GT/gtxe1_i because the signal path to this output pin depends upon block attribute settings. Constraint distribution does not support attribute dependent distribution.
+</msg>
+
+<msg type="warning" file="ConstraintSystem" num="0" >Constraint &lt;NET &quot;U_IBERT_CHECK/U0/U_IBERT_CORE/ma_dclk&quot; TNM_NET = &quot;D_CLK&quot;;&gt; [src/top.ucf(64)] was not distributed to the output pin TXOUTCLK of block U0/U_IBERT_CORE/U_GTCPX_X0Y19/U_GT/gtxe1_i because the signal path to this output pin depends upon block attribute settings. Constraint distribution does not support attribute dependent distribution.
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="0" >The Period constraint &lt;NET &quot;U_IBERT_CHECK/U0/U_IBERT_CORE/ma_dclk&quot; PERIOD = 100 MHz;&gt; [src/top.ucf(45)], is specified using the Net Period method which is not recommended. Please use the Timespec PERIOD method.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1345" delta="old" >The constraint <arg fmt="%s" index="1">&lt;TIMESPEC TS_U_TO_U = FROM &quot;U_CLK&quot; TO &quot;U_CLK&quot; 15000.000000000 pS;&gt;</arg> is overridden by the constraint <arg fmt="%s" index="2">&lt;TIMESPEC TS_U_TO_U = FROM &quot;U_CLK&quot; TO &quot;U_CLK&quot; 15 ns;&gt; [src/top.ucf(57)]</arg>. The overriden constraint usually comes from the input netlist or ncf files. Please set XIL_NGDBUILD_CONSTR_OVERRIDE_ERROR to promote this message to an error.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1345" delta="old" >The constraint <arg fmt="%s" index="1">&lt;TIMESPEC TS_J_TO_D = FROM &quot;J_CLK&quot; TO &quot;D_CLK&quot; TIG;&gt;</arg> is overridden by the constraint <arg fmt="%s" index="2">&lt;TIMESPEC TS_J_TO_D = FROM &quot;J_CLK&quot; TO &quot;D_CLK&quot; TIG ;&gt; [src/top.ucf(60)]</arg>. The overriden constraint usually comes from the input netlist or ncf files. Please set XIL_NGDBUILD_CONSTR_OVERRIDE_ERROR to promote this message to an error.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1345" delta="old" >The constraint <arg fmt="%s" index="1">&lt;TIMESPEC TS_D_TO_J = FROM &quot;D_CLK&quot; TO &quot;J_CLK&quot; TIG;&gt;</arg> is overridden by the constraint <arg fmt="%s" index="2">&lt;TIMESPEC TS_D_TO_J = FROM &quot;D_CLK&quot; TO &quot;J_CLK&quot; TIG ;&gt; [src/top.ucf(62)]</arg>. The overriden constraint usually comes from the input netlist or ncf files. Please set XIL_NGDBUILD_CONSTR_OVERRIDE_ERROR to promote this message to an error.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1345" delta="old" >The constraint <arg fmt="%s" index="1">&lt;TIMESPEC TS_U_TO_U = FROM &quot;U_CLK&quot; TO &quot;U_CLK&quot; 15 ns;&gt; [src/top.ucf(57)]</arg> is overridden by the constraint <arg fmt="%s" index="2">&lt;TIMESPEC TS_U_TO_U = FROM &quot;U_CLK&quot; TO &quot;U_CLK&quot; 15 ns;&gt; [src/top.ucf(58)]</arg>. The overriden constraint usually comes from the input netlist or ncf files. Please set XIL_NGDBUILD_CONSTR_OVERRIDE_ERROR to promote this message to an error.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1345" delta="old" >The constraint <arg fmt="%s" index="1">&lt;TIMESPEC TS_J_TO_D = FROM &quot;J_CLK&quot; TO &quot;D_CLK&quot; TIG ;&gt; [src/top.ucf(60)]</arg> is overridden by the constraint <arg fmt="%s" index="2">&lt;TIMESPEC TS_J_TO_D = FROM &quot;J_CLK&quot; TO &quot;D_CLK&quot; TIG ;&gt; [src/top.ucf(61)]</arg>. The overriden constraint usually comes from the input netlist or ncf files. Please set XIL_NGDBUILD_CONSTR_OVERRIDE_ERROR to promote this message to an error.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1345" delta="old" >The constraint <arg fmt="%s" index="1">&lt;TIMESPEC TS_D_TO_J = FROM &quot;D_CLK&quot; TO &quot;J_CLK&quot; TIG ;&gt; [src/top.ucf(62)]</arg> is overridden by the constraint <arg fmt="%s" index="2">&lt;TIMESPEC TS_D_TO_J = FROM &quot;D_CLK&quot; TO &quot;J_CLK&quot; TIG ;&gt; [src/top.ucf(63)]</arg>. The overriden constraint usually comes from the input netlist or ncf files. Please set XIL_NGDBUILD_CONSTR_OVERRIDE_ERROR to promote this message to an error.
+</msg>
+
+</messages>
+

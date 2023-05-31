@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\top.ncd
+OUTFILE=F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\top.bit
+FAMILY=Virtex6
+PART=xc6vlx365t-1ff1156
+WORKINGDIR=F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b
+LICENSE=ISE
+USER_INFO=__0_0_0

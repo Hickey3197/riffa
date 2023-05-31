@@ -1,0 +1,3 @@
+verilog work "src/chipscope_icon_1.v"
+verilog work "ibert_check/ibert_check.v"
+verilog work "src/top.v"

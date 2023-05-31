@@ -1,0 +1,16 @@
+Release 14.7 - WebTalk (P.20131013)
+Copyright (c) 1995-2010 Xilinx, Inc.  All rights reserved.
+
+Project Information
+--------------------
+ProjectID=8948B32D1EF0B2202E87F91093B37682
+ProjectIteration=3
+
+WebTalk Summary
+----------------
+INFO:WebTalk:2 - WebTalk is enabled.
+
+INFO:WebTalk:8 - WebTalk Install setting is ON.
+INFO:WebTalk:6 - WebTalk User setting is ON.
+
+INFO:WebTalk:5 - K:/V6_365T/2020_Virtex6_365T_pcie_sfp_V2/v6_pcie_gen1x8_riffa/usage_statistics_webtalk.html WebTalk report has not been sent to Xilinx.  Please check your network and proxy settings.  For additional details about this file, please refer to the WebTalk help file at d:/xilinx/14.7/ISE_DS/ISE/data/reports/webtalk_introduction.html

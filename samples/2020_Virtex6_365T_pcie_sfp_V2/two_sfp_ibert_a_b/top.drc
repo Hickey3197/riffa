@@ -1,0 +1,29 @@
+Release 14.7 Drc P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Fri May 01 15:35:27 2020
+
+drc -z top.ncd top.pcf
+
+WARNING:PhysDesignRules:367 - The signal
+   <U_IBERT_CHECK/U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U
+   _ICON_INTERFACE/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RA
+   M2_RAMD_D1_O> is incomplete. The signal does not drive any load pins in the
+   design.
+WARNING:PhysDesignRules:367 - The signal
+   <U_IBERT_CHECK/U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U
+   _ICON_INTERFACE/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RA
+   M1_RAMD_D1_O> is incomplete. The signal does not drive any load pins in the
+   design.
+WARNING:PhysDesignRules:367 - The signal
+   <U_IBERT_CHECK/U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U
+   _ICON_INTERFACE/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RA
+   M1_RAMD_D1_O> is incomplete. The signal does not drive any load pins in the
+   design.
+WARNING:PhysDesignRules:367 - The signal
+   <U_IBERT_CHECK/U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U
+   _ICON_INTERFACE/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/mem/gdm.dm/Mram_RA
+   M2_RAMD_D1_O> is incomplete. The signal does not drive any load pins in the
+   design.
+DRC detected 0 errors and 4 warnings.  Please see the previously displayed
+individual error or warning messages for more details.

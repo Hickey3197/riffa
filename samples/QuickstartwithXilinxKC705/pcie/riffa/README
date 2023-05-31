@@ -1,0 +1,13 @@
+----------------------------------------------------------------------
+OpenFC: contens of pcie/riffa/
+----------------------------------------------------------------------
+
+src-fiffa/:              RIFFA DMA engine core stuff, riffa_hdl/ from
+                         RIFFA-2.2.2, modified for Vivado 2018.x and
+                         Quartus 18.x
+
+xillybus-compat:         RIFFA -> Xillybus interface adapter
+riffa_wrapper_*:         Board independent RIFFA wrapper for Kintex-7 and
+                         Arria / Cyclone 10GX from original RIFFA code,
+riffa-port-*:            RIFFA wrapper + xillybus_compat with some
+                         board dependent stuff

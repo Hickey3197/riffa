@@ -1,0 +1,25 @@
+#ChipScope Pro Analyzer Project File, Version 3.0
+#Tue Oct 22 22:52:01 CST 2019
+device.0.configFileDir=E\:\\V6_365T\\V6\\SATA_IBERT_test\\sata_ibert
+device.0.configFilename=top.bit
+device.0.inserterCDCFileDir=E\:\\V6_365T\\V6\\SATA_IBERT_test\\sata_ibert
+device.0.inserterCDCFilename=
+device.0.partialConfig=0
+deviceChain.deviceName0=XC6VLX365T
+deviceChain.iRLength0=10
+deviceChain.name0=MyDevice0
+deviceIds=44252093
+mdiAreaHeight=0.6997716894977168
+mdiAreaHeightLast=0.6997716894977168
+mdiCount=0
+navigatorHeight=0.17922374429223745
+navigatorHeightLast=0.17922374429223745
+navigatorWidth=0.17998610145934676
+navigatorWidthLast=0.17998610145934676
+signalDisplayPath=0
+unit.-1.-1.username=
+unit.0.-1.coretype=SYSTEM MONITOR
+unit.0.-1.port.-1.buscount=0
+unit.0.-1.port.-1.channelcount=0
+unit.0.-1.portcount=0
+unit.0.-1.username=

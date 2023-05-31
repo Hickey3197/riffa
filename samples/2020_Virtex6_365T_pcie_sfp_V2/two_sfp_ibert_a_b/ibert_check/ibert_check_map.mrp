@@ -1,0 +1,14 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Mapping Report File for Design 'ibert_check'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off
+-pr off -lc off -power off -o ibert_check_map.ncd ibert_check.ngd
+ibert_check.pcf 
+Target Device  : xc6vlx365t
+Target Package : ff1156
+Target Speed   : -1
+Mapper Version : virtex6 -- $Revision: 1.55 $
+Mapped Date    : Thu Oct 10 11:08:03 2019

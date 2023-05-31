@@ -1,0 +1,47 @@
+# ----------------------------------------------------------------------
+# "THE BEER-WARE LICENSE" (Revision 42):
+#    <yasu@prosou.nu> wrote this file. As long as you retain this
+#    notice you can do whatever you want with this stuff. If we meet
+#    some day, and you think this stuff is worth it, you can buy me a
+#    beer in return Yasunori Osana at University of the Ryukyus,
+#    Japan.
+# ----------------------------------------------------------------------
+# OpenFC project: an open FPGA accelerated cluster framework
+#
+# This file is to:
+#    Perform loop-back test on KC705 Aurora interfaces
+# ----------------------------------------------------------------------
+
++nc64bit
++access+r
+
+aurora-loopback-tb.v
+../kc705-clk.v
+../aurora-dual.v
+
+../../../serdes/aurora/aurora-port-axi.v
+../../../serdes/aurora/aurora-port.v
+../../../serdes/aurora/k7-aurora-boot.v
+../../../serdes/aurora/sofeof-axi.v
+
+../ip/iploc/clk_200_50_100/clk_200_50_100_sim_netlist.v
+../ip/iploc/fifo_66x512_async_dprogfull/fifo_66x512_async_dprogfull_sim_netlist.v
+
+# Aurora requires RTL (non -sim-netlist.v) for simulation
+../ip/iploc/kc705_sma_6g_frame/kc705_sma_6g_frame.v
+../ip/iploc/kc705_sma_6g_frame/kc705_sma_6g_frame_core.v
+../ip/iploc/kc705_sma_6g_frame/kc705_sma_6g_frame/src/*.v
+../ip/iploc/kc705_sma_6g_frame/kc705_sma_6g_frame/example_design/gt/*.v
+
+../ip/iploc/kc705_sfp_slave/kc705_sfp_slave.v
+../ip/iploc/kc705_sfp_slave/kc705_sfp_slave_core.v
+../ip/iploc/kc705_sfp_slave/kc705_sfp_slave/src/*.v
+../ip/iploc/kc705_sfp_slave/kc705_sfp_slave/example_design/gt/*.v
+
++libext+.v
+-y $XILINX_VIVADO/data/verilog/src/retarget
+-y $XILINX_VIVADO/data/verilog/src/unisims
+$XILINX_VIVADO/data/verilog/src/glbl.v
+
+-f $XILINX_VIVADO/data/secureip/gtxe2_channel/gtxe2_channel_cell.list.f
+-f $XILINX_VIVADO/data/secureip/gtxe2_common/gtxe2_common_cell.list.f

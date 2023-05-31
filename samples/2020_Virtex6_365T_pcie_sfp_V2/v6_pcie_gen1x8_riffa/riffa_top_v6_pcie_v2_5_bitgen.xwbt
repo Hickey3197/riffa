@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=K:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\v6_pcie_gen1x8_riffa\riffa_top_v6_pcie_v2_5.ncd
+OUTFILE=K:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\v6_pcie_gen1x8_riffa\riffa_top_v6_pcie_v2_5.bit
+FAMILY=Virtex6
+PART=xc6vlx365t-1ff1156
+WORKINGDIR=K:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\v6_pcie_gen1x8_riffa
+LICENSE=ISE
+USER_INFO=__0_0_0

@@ -1,0 +1,73 @@
+
+
+NET "sys_nrst" LOC = A9;
+
+NET "leds[7]" LOC = AP14;
+NET "leds[6]" LOC = AN14;
+NET "leds[5]" LOC = AP15;
+NET "leds[4]" LOC = AN15;
+NET "leds[3]" LOC = AP16;
+NET "leds[2]" LOC = AP17;
+NET "leds[1]" LOC = AN17;
+NET "leds[0]" LOC = AN18;
+
+
+
+
+INST "U_IBERT_CHECK/U0/U_IBERT_CORE/U_GTCPX_X0Y17/U_GT/gtxe1_i" LOC = GTXE1_X0Y17;
+INST "U_IBERT_CHECK/U0/U_IBERT_CORE/U_GTCPX_X0Y19/U_GT/gtxe1_i" LOC = GTXE1_X0Y19;
+
+
+NET "gtx_ref_clk_n" LOC = F5;
+NET "gtx_ref_clk_p" LOC = F6;
+
+NET "gtx_ref_clk_p" TNM_NET = "TNM_GT_QUAD_CLK_4_1";
+TIMESPEC TS_GT_QUAD_CLK_4_1 = PERIOD "TNM_GT_QUAD_CLK_4_1" 6.4 ns;
+
+# GT PLL output constraints
+# GT X0Y17
+NET "U_IBERT_CHECK/U0/U_IBERT_CORE/U_GTCPX_X0Y17/gt_txoutclk" TNM_NET = "TNM_X0Y17_TXOUTCLK";
+TIMESPEC TS_X0Y17_TXOUTCLK = PERIOD "TNM_X0Y17_TXOUTCLK" 4 ns;
+NET "U_IBERT_CHECK/U0/U_IBERT_CORE/U_GTCPX_X0Y17/gt_rxrecclk" TNM_NET = "TNM_X0Y17_RXRECCLK";
+TIMESPEC TS_X0Y17_RXRECCLK = PERIOD "TNM_X0Y17_RXRECCLK" 4 ns;
+# GT X0Y19
+NET "U_IBERT_CHECK/U0/U_IBERT_CORE/U_GTCPX_X0Y19/gt_txoutclk" TNM_NET = "TNM_X0Y19_TXOUTCLK";
+TIMESPEC TS_X0Y19_TXOUTCLK = PERIOD "TNM_X0Y19_TXOUTCLK" 4 ns;
+NET "U_IBERT_CHECK/U0/U_IBERT_CORE/U_GTCPX_X0Y19/gt_rxrecclk" TNM_NET = "TNM_X0Y19_RXRECCLK";
+TIMESPEC TS_X0Y19_RXRECCLK = PERIOD "TNM_X0Y19_RXRECCLK" 4 ns;
+
+#-------------------------------------------------------------------------------------
+# System Clock Timing Constraints and PIN LOCs (if applicable) 
+#-------------------------------------------------------------------------------------
+NET "sys_clk" IOSTANDARD = LVCMOS25;
+NET "sys_clk" LOC = H28;
+NET "sys_clk" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "U_IBERT_CHECK/U0/U_IBERT_CORE/ma_dclk" PERIOD = 100 MHz;
+
+
+
+#-------------------------------------------------------------------------------------
+# JTAG interface Constraints 
+#-------------------------------------------------------------------------------------
+####NET "U_ICON/U0/U_ICON/iDRCK" TNM_NET = J_CLK ;
+#NET "U_ICON/U0/iUPDATE_OUT" TNM_NET = U_CLK ;
+NET "U_ICON/U0/iSHIFT_OUT" TIG;
+##TIMESPEC TS_J_CLK = PERIOD "J_CLK" 30 ns ;
+#TIMESPEC TS_U_TO_J = FROM "U_CLK" TO "J_CLK" 15 ns ;
+TIMESPEC TS_U_TO_U = FROM "U_CLK" TO "U_CLK" 15 ns;
+TIMESPEC TS_U_TO_U = FROM "U_CLK" TO "U_CLK" 15 ns;
+TIMESPEC TS_U_TO_D = FROM "U_CLK" TO "D_CLK" TIG ;
+TIMESPEC TS_J_TO_D = FROM "J_CLK" TO "D_CLK" TIG ;
+TIMESPEC TS_J_TO_D = FROM "J_CLK" TO "D_CLK" TIG ;
+TIMESPEC TS_D_TO_J = FROM "D_CLK" TO "J_CLK" TIG ;
+TIMESPEC TS_D_TO_J = FROM "D_CLK" TO "J_CLK" TIG ;
+NET "U_IBERT_CHECK/U0/U_IBERT_CORE/ma_dclk" TNM_NET = "D_CLK";
+
+
+NET "sfp_a_tx_p" LOC = A3;
+NET "sfp_a_rx_p" LOC = B5;
+NET "sfp_b_tx_p" LOC = C3;
+NET "sfp_b_rx_p" LOC = E3;
+
+NET "sfp_a_disable" LOC = A18;
+NET "sfp_b_disable" LOC = A15;

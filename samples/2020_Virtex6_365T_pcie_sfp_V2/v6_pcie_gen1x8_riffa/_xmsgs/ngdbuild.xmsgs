@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="warning" file="ConstraintSystem" num="0" >Constraint &lt;NET &quot;core*/pcie_clocking_i/clk_125&quot; TNM_NET = &quot;CLK_125&quot; ;&gt; [remote_sources/_/src/riffa_top_v6_pcie_v2_5.ucf(156)] was not distributed to the output pin TXOUTCLK of block core/pcie_2_0_i/pcie_gt_i/gtx_v6_i/no_of_lanes.GTXD[0].GTX because the signal path to this output pin depends upon block attribute settings. Constraint distribution does not support attribute dependent distribution.
+</msg>
+
+</messages>
+

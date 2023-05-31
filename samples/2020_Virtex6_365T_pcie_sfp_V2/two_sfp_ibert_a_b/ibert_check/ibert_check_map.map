@@ -1,0 +1,1693 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Map Application Log File for Design 'ibert_check'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off
+-pr off -lc off -power off -o ibert_check_map.ncd ibert_check.ngd
+ibert_check.pcf 
+Target Device  : xc6vlx365t
+Target Package : ff1156
+Target Speed   : -1
+Mapper Version : virtex6 -- $Revision: 1.55 $
+Mapped Date    : Thu Oct 10 11:08:03 2019
+
+Mapping design into LUTs...
+ERROR:MapLib:979 - LUT4 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n003045"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n003045)
+   has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gcx.clkx/rd_pntr_bin<1>" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n003045"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n003045)
+   has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gcx.clkx/rd_pntr_bin<0>" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT5 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n003057"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n003057)
+   has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gcx.clkx/rd_pntr_bin<2>" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT5 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n003057"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n003057)
+   has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gcx.clkx/rd_pntr_bin<3>" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n003078"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n0030)
+   has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gcx.clkx/rd_pntr_bin<3>" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n003078_SW0"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/N22) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gcx.clkx/rd_pntr_bin<0>" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n003078_SW0"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/N22) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gcx.clkx/rd_pntr_bin<1>" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n003078_SW0"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/N22) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gcx.clkx/rd_pntr_bin<2>" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n003045"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n003045)
+   has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gcx.clkx/wr_pntr_bin<1>" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT4 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n003045"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n003045)
+   has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gcx.clkx/wr_pntr_bin<0>" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT5 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n003057"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n003057)
+   has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gcx.clkx/wr_pntr_bin<2>" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT5 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n003057"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n003057)
+   has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gcx.clkx/wr_pntr_bin<3>" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n003078"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n0030)
+   has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gcx.clkx/wr_pntr_bin<3>" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n003078_SW0"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/N22) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gcx.clkx/wr_pntr_bin<2>" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n003078_SW0"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/N22) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gcx.clkx/wr_pntr_bin<1>" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n003078_SW0"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/N22) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gcx.clkx/wr_pntr_bin<0>" which
+   will be trimmed. See Section 5 of the Map Report File for details about why
+   the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<0>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<0>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/addr_in_rdy_rise_edge" which will be trimmed. See Section 5 of the
+   Map Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<0>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<0>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD5/ctl_reg<0>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<10>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<10>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/addr_in_rdy_rise_edge" which will be trimmed. See Section 5 of the
+   Map Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<10>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<10>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD5/ctl_reg<10>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<11>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<11>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/addr_in_rdy_rise_edge" which will be trimmed. See Section 5 of the
+   Map Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<11>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<11>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD5/ctl_reg<11>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<12>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<12>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/addr_in_rdy_rise_edge" which will be trimmed. See Section 5 of the
+   Map Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<12>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<12>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD5/ctl_reg<12>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<13>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<13>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/addr_in_rdy_rise_edge" which will be trimmed. See Section 5 of the
+   Map Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<13>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<13>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD5/ctl_reg<13>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<14>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<14>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/addr_in_rdy_rise_edge" which will be trimmed. See Section 5 of the
+   Map Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<14>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<14>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD5/ctl_reg<14>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<15>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<15>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/addr_in_rdy_rise_edge" which will be trimmed. See Section 5 of the
+   Map Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<15>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<15>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD5/ctl_reg<15>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<16>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<16>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/addr_in_rdy_rise_edge" which will be trimmed. See Section 5 of the
+   Map Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<16>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<16>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD5/ctl_reg<16>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<1>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<1>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/addr_in_rdy_rise_edge" which will be trimmed. See Section 5 of the
+   Map Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<1>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<1>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD5/ctl_reg<1>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<2>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<2>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/addr_in_rdy_rise_edge" which will be trimmed. See Section 5 of the
+   Map Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<2>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<2>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD5/ctl_reg<2>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<3>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<3>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/addr_in_rdy_rise_edge" which will be trimmed. See Section 5 of the
+   Map Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<3>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<3>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD5/ctl_reg<3>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<4>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<4>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/addr_in_rdy_rise_edge" which will be trimmed. See Section 5 of the
+   Map Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<4>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<4>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD5/ctl_reg<4>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<5>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<5>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/addr_in_rdy_rise_edge" which will be trimmed. See Section 5 of the
+   Map Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<5>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<5>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD5/ctl_reg<5>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<6>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<6>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/addr_in_rdy_rise_edge" which will be trimmed. See Section 5 of the
+   Map Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<6>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<6>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD5/ctl_reg<6>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<7>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<7>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/addr_in_rdy_rise_edge" which will be trimmed. See Section 5 of the
+   Map Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<7>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<7>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD5/ctl_reg<7>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<8>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<8>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/addr_in_rdy_rise_edge" which will be trimmed. See Section 5 of the
+   Map Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<8>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<8>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD5/ctl_reg<8>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<9>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<9>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/addr_in_rdy_rise_edge" which will be trimmed. See Section 5 of the
+   Map Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<9>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<9>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD5/ctl_reg<9>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/_n0024_inv1" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/_n0024_inv) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/addr_in_rdy_rise_edge" which will be trimmed. See Section 5 of the
+   Map Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/_n0024_inv1" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/_n0024_inv) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<18>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<0>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<0>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/burst_wd_in_rdy_rise_edge" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<0>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<0>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<0>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<10>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<10>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/burst_wd_in_rdy_rise_edge" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<10>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<10>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<10>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<11>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<11>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/burst_wd_in_rdy_rise_edge" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<11>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<11>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<11>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<12>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<12>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/burst_wd_in_rdy_rise_edge" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<12>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<12>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<12>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<13>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<13>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/burst_wd_in_rdy_rise_edge" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<13>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<13>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<13>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<14>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<14>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/burst_wd_in_rdy_rise_edge" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<14>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<14>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<14>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<15>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<15>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/burst_wd_in_rdy_rise_edge" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<15>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<15>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<15>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<16>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<16>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/burst_wd_in_rdy_rise_edge" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<16>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<16>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<16>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<1>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<1>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/burst_wd_in_rdy_rise_edge" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<1>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<1>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<1>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<2>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<2>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/burst_wd_in_rdy_rise_edge" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<2>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<2>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<2>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<3>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<3>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/burst_wd_in_rdy_rise_edge" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<3>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<3>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<3>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<4>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<4>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/burst_wd_in_rdy_rise_edge" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<4>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<4>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<4>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<5>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<5>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/burst_wd_in_rdy_rise_edge" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<5>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<5>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<5>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<6>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<6>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/burst_wd_in_rdy_rise_edge" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<6>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<6>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<6>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<7>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<7>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/burst_wd_in_rdy_rise_edge" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<7>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<7>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<7>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<8>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<8>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/burst_wd_in_rdy_rise_edge" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<8>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<8>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<8>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<9>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<9>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/burst_wd_in_rdy_rise_edge" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<9>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<9>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<9>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/_n0023_inv1" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/_n0023_inv) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/burst_wd_in_rdy_rise_edge" which will be trimmed. See Section
+   5 of the Map Report File for details about why the input signal will become
+   undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/_n0023_inv1" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/_n0023_inv) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<17>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT5 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/Mmux_next_state[4]_sl_den_r[1]_wide_mux_46_OUT11" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   S_CONTROLLER/next_state[4]_sl_den_r[1]_wide_mux_46_OUT<0>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<19>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT5 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/Mmux_next_state[4]_sl_den_r[1]_wide_mux_46_OUT11" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   S_CONTROLLER/next_state[4]_sl_den_r[1]_wide_mux_46_OUT<0>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/sl_den_mask<0>"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT5 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/Mmux_next_state[4]_sl_den_r[1]_wide_mux_46_OUT21" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   S_CONTROLLER/next_state[4]_sl_den_r[1]_wide_mux_46_OUT<1>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<19>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT5 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/Mmux_next_state[4]_sl_den_r[1]_wide_mux_46_OUT21" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   S_CONTROLLER/next_state[4]_sl_den_r[1]_wide_mux_46_OUT<1>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/sl_den_mask<1>"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT5 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/Mmux_next_state[4]_sl_dwe_r[1]_wide_mux_45_OUT11" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   S_CONTROLLER/next_state[4]_sl_dwe_r[1]_wide_mux_45_OUT<0>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<19>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT5 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/Mmux_next_state[4]_sl_dwe_r[1]_wide_mux_45_OUT11" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   S_CONTROLLER/next_state[4]_sl_dwe_r[1]_wide_mux_45_OUT<0>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/sl_den_mask<0>"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT5 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/Mmux_next_state[4]_sl_dwe_r[1]_wide_mux_45_OUT21" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   S_CONTROLLER/next_state[4]_sl_dwe_r[1]_wide_mux_45_OUT<1>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<19>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT5 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/Mmux_next_state[4]_sl_dwe_r[1]_wide_mux_45_OUT21" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   S_CONTROLLER/next_state[4]_sl_dwe_r[1]_wide_mux_45_OUT<1>) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/sl_den_mask<1>"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/active_sl_den_mask_0_dpot" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   S_CONTROLLER/active_sl_den_mask_0_dpot) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<19>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/active_sl_den_mask_0_dpot" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   S_CONTROLLER/active_sl_den_mask_0_dpot) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/sl_den_mask<0>"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/active_sl_den_mask_1_dpot" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   S_CONTROLLER/active_sl_den_mask_1_dpot) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<19>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/active_sl_den_mask_1_dpot" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   S_CONTROLLER/active_sl_den_mask_1_dpot) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/sl_den_mask<1>"
+   which will be trimmed. See Section 5 of the Map Report File for details about
+   why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/current_state_FSM_FFd3-In2" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   S_CONTROLLER/current_state_FSM_FFd3-In1) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<17>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT5 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/current_state_FSM_FFd3-In3" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   S_CONTROLLER/current_state_FSM_FFd3-In2) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/U_RD_REQ_FLAG/flag" which will be trimmed. See Section 5 of the Map
+   Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT5 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/current_state_FSM_FFd3-In4" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   S_CONTROLLER/current_state_FSM_FFd3-In3) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/U_RD_ABORT_FLAG/flag" which will be trimmed. See Section 5 of the Map
+   Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT2 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/current_state_FSM_FFd3-In6" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   S_CONTROLLER/current_state_FSM_FFd3-In5) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/U_RD_ABORT_FLAG/flag" which will be trimmed. See Section 5 of the Map
+   Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/current_state_FSM_FFd3-In7" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   S_CONTROLLER/current_state_FSM_FFd3-In6) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD4/ctl_reg<17>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/current_state_FSM_FFd4-In1_SW0" (output signal=N143) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/U_RD_ABORT_FLAG/flag" which will be trimmed. See Section 5 of the Map
+   Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/current_state_FSM_FFd4-In2" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   S_CONTROLLER/current_state_FSM_FFd4-In1) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/U_RD_ABORT_FLAG/flag" which will be trimmed. See Section 5 of the Map
+   Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT5 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/current_state_FSM_FFd4-In4" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   S_CONTROLLER/current_state_FSM_FFd4-In3) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/U_RD_ABORT_FLAG/flag" which will be trimmed. See Section 5 of the Map
+   Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/current_state_FSM_FFd4-In7" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   S_CONTROLLER/current_state_FSM_FFd4-In6) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/U_RD_REQ_FLAG/flag" which will be trimmed. See Section 5 of the Map
+   Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/current_state_FSM_FFd5-In2" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   S_CONTROLLER/current_state_FSM_FFd5-In1) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/U_RD_ABORT_FLAG/flag" which will be trimmed. See Section 5 of the Map
+   Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT5 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/current_state_FSM_FFd5-In5" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   S_CONTROLLER/current_state_FSM_FFd5-In4) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/U_RD_ABORT_FLAG/flag" which will be trimmed. See Section 5 of the Map
+   Report File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/sl_rst_r_0_dpot" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   S_CONTROLLER/sl_rst_r_0_dpot) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD1/ctl_reg<1>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+ERROR:MapLib:979 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BUS_CONT
+   ROLLER/sl_rst_r_1_dpot" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   S_CONTROLLER/sl_rst_r_1_dpot) has input signal
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD1/ctl_reg<2>" which will be trimmed. See Section 5 of the Map Report
+   File for details about why the input signal will become undriven.
+WARNING:MapLib:701 - Signal X0Y18_RX_N_IPAD connected to top level port
+   X0Y18_RX_N_IPAD has been removed.
+WARNING:MapLib:701 - Signal X0Y18_RX_P_IPAD connected to top level port
+   X0Y18_RX_P_IPAD has been removed.
+WARNING:MapLib:701 - Signal Q4_CLK1_MGTREFCLK_I connected to top level port
+   Q4_CLK1_MGTREFCLK_I has been removed.
+WARNING:MapLib:701 - Signal X0Y18_TX_N_OPAD connected to top level port
+   X0Y18_TX_N_OPAD has been removed.
+WARNING:MapLib:701 - Signal X0Y18_TX_P_OPAD connected to top level port
+   X0Y18_TX_P_OPAD has been removed.
+WARNING:MapLib:701 - Signal X0Y16_RX_N_IPAD connected to top level port
+   X0Y16_RX_N_IPAD has been removed.
+WARNING:MapLib:701 - Signal X0Y16_RX_P_IPAD connected to top level port
+   X0Y16_RX_P_IPAD has been removed.
+WARNING:MapLib:701 - Signal X0Y16_TX_N_OPAD connected to top level port
+   X0Y16_TX_N_OPAD has been removed.
+WARNING:MapLib:701 - Signal X0Y16_TX_P_OPAD connected to top level port
+   X0Y16_TX_P_OPAD has been removed.
+WARNING:MapLib:701 - Signal IBERT_SYSCLOCK_I connected to top level port
+   IBERT_SYSCLOCK_I has been removed.
+WARNING:MapLib:701 - Signal CONTROL<0> connected to top level port CONTROL<0>
+   has been removed.
+WARNING:MapLib:701 - Signal
+   U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFACE
+   /icn_cmd_dout connected to top level port CONTROL<3> has been removed.
+WARNING:MapLib:701 - Signal CONTROL<1> connected to top level port CONTROL<1>
+   has been removed.
+WARNING:MapLib:701 - Signal CONTROL<11> connected to top level port CONTROL<11>
+   has been removed.
+WARNING:MapLib:701 - Signal CONTROL<9> connected to top level port CONTROL<9>
+   has been removed.
+WARNING:MapLib:701 - Signal CONTROL<8> connected to top level port CONTROL<8>
+   has been removed.
+WARNING:MapLib:701 - Signal CONTROL<6> connected to top level port CONTROL<6>
+   has been removed.
+WARNING:MapLib:701 - Signal CONTROL<7> connected to top level port CONTROL<7>
+   has been removed.
+WARNING:MapLib:701 - Signal CONTROL<10> connected to top level port CONTROL<10>
+   has been removed.
+WARNING:MapLib:701 - Signal CONTROL<5> connected to top level port CONTROL<5>
+   has been removed.
+WARNING:MapLib:701 - Signal CONTROL<4> connected to top level port CONTROL<4>
+   has been removed.
+ERROR:MapLib:978 - LUT4 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n003045"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n003045)
+   has an equation that uses input pin I0, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n003045"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n003045)
+   has an equation that uses input pin I1, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT5 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n003057"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n003057)
+   has an equation that uses input pin I1, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT5 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n003057"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n003057)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n003078"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n0030)
+   has an equation that uses input pin I1, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n003078_SW0"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/N22) has an equation that uses input
+   pin I0, which no longer has a connected signal. Please ensure that all the
+   pins used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n003078_SW0"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/N22) has an equation that uses input
+   pin I2, which no longer has a connected signal. Please ensure that all the
+   pins used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/U0/grf.rf/gl0.wr/gwas.wsts/n003078_SW0"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_RD/I_FAM_V6.U_RD_FIFO/BU2/N22) has an equation that uses input
+   pin I4, which no longer has a connected signal. Please ensure that all the
+   pins used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n003045"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n003045)
+   has an equation that uses input pin I0, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT4 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n003045"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n003045)
+   has an equation that uses input pin I1, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT5 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n003057"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n003057)
+   has an equation that uses input pin I1, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT5 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n003057"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n003057)
+   has an equation that uses input pin I2, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n003078"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n0030)
+   has an equation that uses input pin I1, which no longer has a connected
+   signal. Please ensure that all the pins used in the equation for this LUT
+   have signals that are not trimmed (see Section 5 of the Map Report File for
+   details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n003078_SW0"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/N22) has an equation that uses input
+   pin I0, which no longer has a connected signal. Please ensure that all the
+   pins used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n003078_SW0"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/N22) has an equation that uses input
+   pin I1, which no longer has a connected signal. Please ensure that all the
+   pins used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT6 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_INTERFAC
+   E/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/U0/grf.rf/gl0.rd/gras.rsts/n003078_SW0"
+   (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_ICON_IN
+   TERFACE/U_CMD6_WR/I_FAM_V6.U_WR_FIFO/BU2/N22) has an equation that uses input
+   pin I2, which no longer has a connected signal. Please ensure that all the
+   pins used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<0>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<0>) has an equation that uses input pin I0,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<0>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<0>) has an equation that uses input pin I2,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<10>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<10>) has an equation that uses input pin I0,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<10>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<10>) has an equation that uses input pin I2,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<11>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<11>) has an equation that uses input pin I0,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<11>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<11>) has an equation that uses input pin I2,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<12>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<12>) has an equation that uses input pin I0,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<12>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<12>) has an equation that uses input pin I2,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<13>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<13>) has an equation that uses input pin I0,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<13>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<13>) has an equation that uses input pin I2,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<14>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<14>) has an equation that uses input pin I0,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<14>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<14>) has an equation that uses input pin I2,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<15>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<15>) has an equation that uses input pin I0,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<15>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<15>) has an equation that uses input pin I2,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<16>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<16>) has an equation that uses input pin I0,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<16>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<16>) has an equation that uses input pin I2,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<1>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<1>) has an equation that uses input pin I0,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<1>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<1>) has an equation that uses input pin I2,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<2>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<2>) has an equation that uses input pin I0,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<2>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<2>) has an equation that uses input pin I2,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<3>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<3>) has an equation that uses input pin I0,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<3>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<3>) has an equation that uses input pin I2,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<4>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<4>) has an equation that uses input pin I0,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<4>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<4>) has an equation that uses input pin I2,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<5>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<5>) has an equation that uses input pin I0,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<5>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<5>) has an equation that uses input pin I2,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<6>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<6>) has an equation that uses input pin I0,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<6>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<6>) has an equation that uses input pin I2,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<7>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<7>) has an equation that uses input pin I0,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<7>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<7>) has an equation that uses input pin I2,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<8>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<8>) has an equation that uses input pin I0,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<8>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<8>) has an equation that uses input pin I2,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<9>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<9>) has an equation that uses input pin I0,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/Mcount_addr_lut<9>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/Mcount_addr_lut<9>) has an equation that uses input pin I2,
+   which no longer has a connected signal. Please ensure that all the pins used
+   in the equation for this LUT have signals that are not trimmed (see Section 5
+   of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/_n0024_inv1" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/_n0024_inv) has an equation that uses input pin I0, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_ADDRESS_
+   CONTROLLER/_n0024_inv1" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_AD
+   DRESS_CONTROLLER/_n0024_inv) has an equation that uses input pin I1, which no
+   longer has a connected signal. Please ensure that all the pins used in the
+   equation for this LUT have signals that are not trimmed (see Section 5 of the
+   Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<0>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<0>) has an equation that uses input
+   pin I0, which no longer has a connected signal. Please ensure that all the
+   pins used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<0>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<0>) has an equation that uses input
+   pin I2, which no longer has a connected signal. Please ensure that all the
+   pins used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<10>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<10>) has an equation that uses
+   input pin I0, which no longer has a connected signal. Please ensure that all
+   the pins used in the equation for this LUT have signals that are not trimmed
+   (see Section 5 of the Map Report File for details on which signals were
+   trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<10>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<10>) has an equation that uses
+   input pin I2, which no longer has a connected signal. Please ensure that all
+   the pins used in the equation for this LUT have signals that are not trimmed
+   (see Section 5 of the Map Report File for details on which signals were
+   trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<11>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<11>) has an equation that uses
+   input pin I0, which no longer has a connected signal. Please ensure that all
+   the pins used in the equation for this LUT have signals that are not trimmed
+   (see Section 5 of the Map Report File for details on which signals were
+   trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<11>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<11>) has an equation that uses
+   input pin I2, which no longer has a connected signal. Please ensure that all
+   the pins used in the equation for this LUT have signals that are not trimmed
+   (see Section 5 of the Map Report File for details on which signals were
+   trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<12>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<12>) has an equation that uses
+   input pin I0, which no longer has a connected signal. Please ensure that all
+   the pins used in the equation for this LUT have signals that are not trimmed
+   (see Section 5 of the Map Report File for details on which signals were
+   trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<12>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<12>) has an equation that uses
+   input pin I2, which no longer has a connected signal. Please ensure that all
+   the pins used in the equation for this LUT have signals that are not trimmed
+   (see Section 5 of the Map Report File for details on which signals were
+   trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<13>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<13>) has an equation that uses
+   input pin I0, which no longer has a connected signal. Please ensure that all
+   the pins used in the equation for this LUT have signals that are not trimmed
+   (see Section 5 of the Map Report File for details on which signals were
+   trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<13>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<13>) has an equation that uses
+   input pin I2, which no longer has a connected signal. Please ensure that all
+   the pins used in the equation for this LUT have signals that are not trimmed
+   (see Section 5 of the Map Report File for details on which signals were
+   trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<14>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<14>) has an equation that uses
+   input pin I0, which no longer has a connected signal. Please ensure that all
+   the pins used in the equation for this LUT have signals that are not trimmed
+   (see Section 5 of the Map Report File for details on which signals were
+   trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<14>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<14>) has an equation that uses
+   input pin I2, which no longer has a connected signal. Please ensure that all
+   the pins used in the equation for this LUT have signals that are not trimmed
+   (see Section 5 of the Map Report File for details on which signals were
+   trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<15>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<15>) has an equation that uses
+   input pin I0, which no longer has a connected signal. Please ensure that all
+   the pins used in the equation for this LUT have signals that are not trimmed
+   (see Section 5 of the Map Report File for details on which signals were
+   trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<15>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<15>) has an equation that uses
+   input pin I2, which no longer has a connected signal. Please ensure that all
+   the pins used in the equation for this LUT have signals that are not trimmed
+   (see Section 5 of the Map Report File for details on which signals were
+   trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<16>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<16>) has an equation that uses
+   input pin I0, which no longer has a connected signal. Please ensure that all
+   the pins used in the equation for this LUT have signals that are not trimmed
+   (see Section 5 of the Map Report File for details on which signals were
+   trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<16>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<16>) has an equation that uses
+   input pin I2, which no longer has a connected signal. Please ensure that all
+   the pins used in the equation for this LUT have signals that are not trimmed
+   (see Section 5 of the Map Report File for details on which signals were
+   trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<1>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<1>) has an equation that uses input
+   pin I0, which no longer has a connected signal. Please ensure that all the
+   pins used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<1>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<1>) has an equation that uses input
+   pin I2, which no longer has a connected signal. Please ensure that all the
+   pins used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<2>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<2>) has an equation that uses input
+   pin I0, which no longer has a connected signal. Please ensure that all the
+   pins used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<2>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<2>) has an equation that uses input
+   pin I2, which no longer has a connected signal. Please ensure that all the
+   pins used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<3>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<3>) has an equation that uses input
+   pin I0, which no longer has a connected signal. Please ensure that all the
+   pins used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<3>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<3>) has an equation that uses input
+   pin I2, which no longer has a connected signal. Please ensure that all the
+   pins used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<4>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<4>) has an equation that uses input
+   pin I0, which no longer has a connected signal. Please ensure that all the
+   pins used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<4>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<4>) has an equation that uses input
+   pin I2, which no longer has a connected signal. Please ensure that all the
+   pins used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<5>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<5>) has an equation that uses input
+   pin I0, which no longer has a connected signal. Please ensure that all the
+   pins used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<5>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<5>) has an equation that uses input
+   pin I2, which no longer has a connected signal. Please ensure that all the
+   pins used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).
+ERROR:MapLib:978 - LUT3 symbol
+   "U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BURST_WD
+   _LEN_CONTROLLER/Mcount_burst_wd_lut<6>" (output
+   signal=U0/U_IBERT_CORE/U_XSDB_MSTR/U_VHD_CHIPSCOPE_ICON2XSDB_MSTRBR/U_XSDB_BU
+   RST_WD_LEN_CONTROLLER/Mcount_burst_wd_lut<6>) has an equation that uses input
+   pin I0, which no longer has a connected signal. Please ensure that all the
+   pins used in the equation for this LUT have signals that are not trimmed (see
+   Section 5 of the Map Report File for details on which signals were trimmed).

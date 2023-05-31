@@ -1,0 +1,37 @@
+xst -intstyle ise -ifn "E:/V6_365T/V6/v6_golden_top_two_sfp_ibert/top.xst" -ofn "E:/V6_365T/V6/v6_golden_top_two_sfp_ibert/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ibert_check -sd src -nt timestamp -uc src/top.ucf -p xc6vlx365t-ff1156-1 top.ngc top.ngd  
+map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 4 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "E:/V6_365T/V6/v6_golden_top_two_sfp_ibert/top.xst" -ofn "E:/V6_365T/V6/v6_golden_top_two_sfp_ibert/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ibert_check -sd src -nt timestamp -uc src/top.ucf -p xc6vlx365t-ff1156-1 top.ngc top.ngd  
+map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 4 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "F:/V6_365T/v6_golden_top_two_sfp_ibert/top.xst" -ofn "F:/V6_365T/v6_golden_top_two_sfp_ibert/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ibert_check -sd src -nt timestamp -uc src/top.ucf -p xc6vlx365t-ff1156-1 top.ngc top.ngd  
+map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 4 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "F:/V6_365T/2020_Virtex6_365T_pcie_sfp_V2/two_sfp_ibert_c_d/top.xst" -ofn "F:/V6_365T/2020_Virtex6_365T_pcie_sfp_V2/two_sfp_ibert_c_d/top.syr" 
+xst -intstyle ise -ifn "F:/V6_365T/2020_Virtex6_365T_pcie_sfp_V2/two_sfp_ibert_c_d/top.xst" -ofn "F:/V6_365T/2020_Virtex6_365T_pcie_sfp_V2/two_sfp_ibert_c_d/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ibert_check -sd src -nt timestamp -uc src/top.ucf -p xc6vlx365t-ff1156-1 top.ngc top.ngd  
+map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 4 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "F:/V6_365T/2020_Virtex6_365T_pcie_sfp_V2/two_sfp_ibert_a_b/top.xst" -ofn "F:/V6_365T/2020_Virtex6_365T_pcie_sfp_V2/two_sfp_ibert_a_b/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ibert_check -sd src -nt timestamp -uc src/top.ucf -p xc6vlx365t-ff1156-1 top.ngc top.ngd  
+map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 4 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 
+xst -intstyle ise -ifn "F:/V6_365T/2020_Virtex6_365T_pcie_sfp_V2/two_sfp_ibert_a_b/top.xst" -ofn "F:/V6_365T/2020_Virtex6_365T_pcie_sfp_V2/two_sfp_ibert_a_b/top.syr" 
+ngdbuild -intstyle ise -dd _ngo -sd ibert_check -sd src -nt timestamp -uc src/top.ucf -p xc6vlx365t-ff1156-1 top.ngc top.ngd  
+map -intstyle ise -p xc6vlx365t-ff1156-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt 2 -ir off -pr off -lc off -power off -o top_map.ncd top.ngd top.pcf 
+par -w -intstyle ise -ol high -mt 4 top_map.ncd top.ncd top.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml top.twx top.ncd -o top.twr top.pcf 
+bitgen -intstyle ise -f top.ut top.ncd 

@@ -1,0 +1,601 @@
+Release 14.7 - xst P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.09 secs
+ 
+--> Reading design: top.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "top.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "top"
+Output Format                      : NGC
+Target Device                      : xc6vlx365t-1-ff1156
+
+---- Source Options
+Top Module Name                    : top
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 32
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+---- Other Options
+Cores Search Directories           : {"ibert_check" "src"  }
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\chipscope_icon_1.v" into library work
+Parsing module <chipscope_icon_1>.
+Analyzing Verilog file "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\ibert_check\ibert_check.v" into library work
+Parsing module <ibert_check>.
+Analyzing Verilog file "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" into library work
+Parsing module <top>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+WARNING:HDLCompiler:1016 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" Line 49: Port X1Y24_TX_P_OPAD is not connected to this instance
+
+Elaborating module <top>.
+
+Elaborating module <IBUFDS_GTXE1>.
+
+Elaborating module <chipscope_icon_1>.
+
+Elaborating module <ibert_check>.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <top>.
+    Related source file is "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v".
+WARNING:Xst:647 - Input <sys_nrst> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X0Y17_RXRECCLK_O> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y24_TX_P_OPAD> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y24_TX_N_OPAD> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y25_TX_P_OPAD> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y25_TX_N_OPAD> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y26_TX_P_OPAD> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y26_TX_N_OPAD> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y27_TX_P_OPAD> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y27_TX_N_OPAD> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y28_TX_P_OPAD> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y28_TX_N_OPAD> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y29_TX_P_OPAD> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y29_TX_N_OPAD> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y30_TX_P_OPAD> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y30_TX_N_OPAD> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y31_TX_P_OPAD> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y31_TX_N_OPAD> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y32_TX_P_OPAD> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y32_TX_N_OPAD> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y33_TX_P_OPAD> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y33_TX_N_OPAD> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y34_TX_P_OPAD> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y34_TX_N_OPAD> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y35_TX_P_OPAD> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y35_TX_N_OPAD> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y24_RXRECCLK_O> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y25_RXRECCLK_O> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y26_RXRECCLK_O> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y27_RXRECCLK_O> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y28_RXRECCLK_O> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y29_RXRECCLK_O> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y30_RXRECCLK_O> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y31_RXRECCLK_O> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y32_RXRECCLK_O> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y33_RXRECCLK_O> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y34_RXRECCLK_O> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+INFO:Xst:3210 - "F:\V6_365T\2020_Virtex6_365T_pcie_sfp_V2\two_sfp_ibert_a_b\src\top.v" line 49: Output port <X1Y35_RXRECCLK_O> of the instance <U_IBERT_CHECK> is unconnected or connected to loadless signal.
+    Summary:
+	no macro.
+Unit <top> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+Reading core <ibert_check/ibert_check.ngc>.
+Reading core <src/chipscope_icon_1.ngc>.
+Loading core <ibert_check> for timing and area information for instance <U_IBERT_CHECK>.
+Loading core <chipscope_icon_1> for timing and area information for instance <U_ICON>.
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <top> ...
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block top, actual ratio is 1.
+INFO:Xst:2260 - The FF/Latch <U0/U_IBERT_CORE/U_GTCPX_X0Y17/U_COMPLEX/U_COMPLEX_REGS/U_XSDB_SLAVE/U_VHD_CHIPSCOPE_XSDB_SLAVE/C_1PIPE_IFACE.s_daddr_r_1> in Unit <U_IBERT_CHECK> is equivalent to the following FF/Latch : <U0/U_IBERT_CORE/U_GTCPX_X0Y17/U_COMPLEX/U_COMPLEX_REGS/U_XSDB_SLAVE/U_VHD_CHIPSCOPE_XSDB_SLAVE/C_1PIPE_IFACE.s_daddr_r_1_1> 
+INFO:Xst:2260 - The FF/Latch <U0/U_IBERT_CORE/U_GTCPX_X0Y17/U_COMPLEX/U_COMPLEX_REGS/U_XSDB_SLAVE/U_VHD_CHIPSCOPE_XSDB_SLAVE/C_1PIPE_IFACE.s_daddr_r_3> in Unit <U_IBERT_CHECK> is equivalent to the following FF/Latch : <U0/U_IBERT_CORE/U_GTCPX_X0Y17/U_COMPLEX/U_COMPLEX_REGS/U_XSDB_SLAVE/U_VHD_CHIPSCOPE_XSDB_SLAVE/C_1PIPE_IFACE.s_daddr_r_3_1> 
+INFO:Xst:2260 - The FF/Latch <U0/U_IBERT_CORE/U_GTCPX_X0Y17/U_COMPLEX/U_COMPLEX_REGS/U_XSDB_SLAVE/U_VHD_CHIPSCOPE_XSDB_SLAVE/C_1PIPE_IFACE.s_daddr_r_4> in Unit <U_IBERT_CHECK> is equivalent to the following FF/Latch : <U0/U_IBERT_CORE/U_GTCPX_X0Y17/U_COMPLEX/U_COMPLEX_REGS/U_XSDB_SLAVE/U_VHD_CHIPSCOPE_XSDB_SLAVE/C_1PIPE_IFACE.s_daddr_r_4_1> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.wr/gwas.wsts/ram_full_i> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.wr/gwas.wsts/ram_full_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/rstblk/wr_rst_reg_dummy_dummy_1> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/rstblk/wr_rst_reg_dummy_dummy_0> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.rd/gr1.rfwft/curr_fwft_state_FSM_FFd2> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.rd/gr1.rfwft/user_valid> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/rstblk/rd_rst_reg_dummy_dummy_dummy_2> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/rstblk/rd_rst_reg_dummy_dummy_dummy_1> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.rd/gr1.rfwft/empty_fwft_i> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.rd/gr1.rfwft/empty_fwft_fb> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.wr/gwas.wsts/ram_full_i> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.wr/gwas.wsts/ram_full_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/rstblk/wr_rst_reg_dummy_dummy_1> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/rstblk/wr_rst_reg_dummy_dummy_0> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.rd/gras.rsts/ram_empty_i> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.rd/gras.rsts/ram_empty_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/rstblk/rd_rst_reg_dummy_dummy_dummy_2> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/rstblk/rd_rst_reg_dummy_dummy_dummy_1> 
+INFO:Xst:2260 - The FF/Latch <U0/U_IBERT_CORE/U_GTCPX_X0Y17/U_COMPLEX/U_COMPLEX_REGS/U_XSDB_SLAVE/U_VHD_CHIPSCOPE_XSDB_SLAVE/C_1PIPE_IFACE.s_daddr_r_1> in Unit <U_IBERT_CHECK> is equivalent to the following FF/Latch : <U0/U_IBERT_CORE/U_GTCPX_X0Y17/U_COMPLEX/U_COMPLEX_REGS/U_XSDB_SLAVE/U_VHD_CHIPSCOPE_XSDB_SLAVE/C_1PIPE_IFACE.s_daddr_r_1_1> 
+INFO:Xst:2260 - The FF/Latch <U0/U_IBERT_CORE/U_GTCPX_X0Y17/U_COMPLEX/U_COMPLEX_REGS/U_XSDB_SLAVE/U_VHD_CHIPSCOPE_XSDB_SLAVE/C_1PIPE_IFACE.s_daddr_r_3> in Unit <U_IBERT_CHECK> is equivalent to the following FF/Latch : <U0/U_IBERT_CORE/U_GTCPX_X0Y17/U_COMPLEX/U_COMPLEX_REGS/U_XSDB_SLAVE/U_VHD_CHIPSCOPE_XSDB_SLAVE/C_1PIPE_IFACE.s_daddr_r_3_1> 
+INFO:Xst:2260 - The FF/Latch <U0/U_IBERT_CORE/U_GTCPX_X0Y17/U_COMPLEX/U_COMPLEX_REGS/U_XSDB_SLAVE/U_VHD_CHIPSCOPE_XSDB_SLAVE/C_1PIPE_IFACE.s_daddr_r_4> in Unit <U_IBERT_CHECK> is equivalent to the following FF/Latch : <U0/U_IBERT_CORE/U_GTCPX_X0Y17/U_COMPLEX/U_COMPLEX_REGS/U_XSDB_SLAVE/U_VHD_CHIPSCOPE_XSDB_SLAVE/C_1PIPE_IFACE.s_daddr_r_4_1> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.wr/gwas.wsts/ram_full_i> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.wr/gwas.wsts/ram_full_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/rstblk/wr_rst_reg_dummy_dummy_1> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/rstblk/wr_rst_reg_dummy_dummy_0> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.rd/gr1.rfwft/curr_fwft_state_FSM_FFd2> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.rd/gr1.rfwft/user_valid> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/rstblk/rd_rst_reg_dummy_dummy_dummy_2> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/rstblk/rd_rst_reg_dummy_dummy_dummy_1> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.rd/gr1.rfwft/empty_fwft_i> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.rd/gr1.rfwft/empty_fwft_fb> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.wr/gwas.wsts/ram_full_i> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.wr/gwas.wsts/ram_full_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/rstblk/wr_rst_reg_dummy_dummy_1> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/rstblk/wr_rst_reg_dummy_dummy_0> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.rd/gras.rsts/ram_empty_i> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.rd/gras.rsts/ram_empty_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/rstblk/rd_rst_reg_dummy_dummy_dummy_2> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/rstblk/rd_rst_reg_dummy_dummy_dummy_1> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.rd/gr1.rfwft/curr_fwft_state_FSM_FFd2> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.rd/gr1.rfwft/user_valid> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/rstblk/rd_rst_reg_dummy_dummy_dummy_2> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/rstblk/rd_rst_reg_dummy_dummy_dummy_1> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.rd/gr1.rfwft/empty_fwft_i> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.rd/gr1.rfwft/empty_fwft_fb> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/rstblk/wr_rst_reg_dummy_dummy_1> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/rstblk/wr_rst_reg_dummy_dummy_0> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.wr/gwas.wsts/ram_full_i> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.wr/gwas.wsts/ram_full_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.rd/gr1.rfwft/curr_fwft_state_FSM_FFd2> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.rd/gr1.rfwft/user_valid> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/rstblk/rd_rst_reg_dummy_dummy_dummy_2> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/rstblk/rd_rst_reg_dummy_dummy_dummy_1> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.rd/gr1.rfwft/empty_fwft_i> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.rd/gr1.rfwft/empty_fwft_fb> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/rstblk/wr_rst_reg_dummy_dummy_1> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/rstblk/wr_rst_reg_dummy_dummy_0> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.wr/gwas.wsts/ram_full_i> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.wr/gwas.wsts/ram_full_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/rstblk/rd_rst_reg_dummy_dummy_dummy_2> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/rstblk/rd_rst_reg_dummy_dummy_dummy_1> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/rstblk/wr_rst_reg_dummy_dummy_1> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/rstblk/wr_rst_reg_dummy_dummy_0> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.wr/gwas.wsts/ram_full_i> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.wr/gwas.wsts/ram_full_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.rd/gras.rsts/ram_empty_i> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.rd/gras.rsts/ram_empty_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/rstblk/rd_rst_reg_dummy_dummy_dummy_2> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/rstblk/rd_rst_reg_dummy_dummy_dummy_1> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/rstblk/wr_rst_reg_dummy_dummy_1> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/rstblk/wr_rst_reg_dummy_dummy_0> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.wr/gwas.wsts/ram_full_i> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.wr/gwas.wsts/ram_full_fb_i> 
+INFO:Xst:2260 - The FF/Latch <U0/grf.rf/gl0.rd/gras.rsts/ram_empty_i> in Unit <BU2> is equivalent to the following FF/Latch : <U0/grf.rf/gl0.rd/gras.rsts/ram_empty_fb_i> 
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Found no macro
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : top.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 5045
+#      GND                         : 5
+#      INV                         : 84
+#      LUT1                        : 603
+#      LUT2                        : 589
+#      LUT3                        : 254
+#      LUT4                        : 501
+#      LUT5                        : 400
+#      LUT6                        : 1143
+#      MUXCY                       : 721
+#      MUXCY_L                     : 5
+#      MUXF5                       : 2
+#      MUXF6                       : 1
+#      MUXF7                       : 60
+#      VCC                         : 3
+#      XORCY                       : 674
+# FlipFlops/Latches                : 4941
+#      FD                          : 1027
+#      FDC                         : 101
+#      FDCE                        : 138
+#      FDE                         : 1758
+#      FDP                         : 22
+#      FDPE                        : 6
+#      FDR                         : 687
+#      FDRE                        : 1170
+#      FDSE                        : 32
+# RAMS                             : 12
+#      RAM32M                      : 4
+#      RAM32X1D                    : 8
+# Shift Registers                  : 151
+#      SRLC16E                     : 151
+# Clock Buffers                    : 6
+#      BUFG                        : 6
+# IO Buffers                       : 22
+#      IBUF                        : 6
+#      IBUFDS_GTXE1                : 1
+#      IBUFG                       : 1
+#      OBUF                        : 14
+# GigabitIOs                       : 2
+#      GTXE1                       : 2
+# Others                           : 3
+#      BSCAN_VIRTEX6               : 1
+#      TIMESPEC                    : 2
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6vlx365tff1156-1 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:            4941  out of  455040     1%  
+ Number of Slice LUTs:                 3757  out of  227520     1%  
+    Number used as Logic:              3574  out of  227520     1%  
+    Number used as Memory:              183  out of  66080     0%  
+       Number used as RAM:               32
+       Number used as SRL:              151
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:   6615
+   Number with an unused Flip Flop:    1674  out of   6615    25%  
+   Number with an unused LUT:          2858  out of   6615    43%  
+   Number of fully used LUT-FF pairs:  2083  out of   6615    31%  
+   Number of unique control sets:       208
+
+IO Utilization: 
+ Number of IOs:                          22
+ Number of bonded IOBs:                  21  out of    600     3%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                6  out of     32    18%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-------------------------------------------------------+-----------------------------------+-------+
+Clock Signal                                           | Clock buffer(FF name)             | Load  |
+-------------------------------------------------------+-----------------------------------+-------+
+sys_clk                                                | IBUFG+BUFG                        | 3040  |
+U_IBERT_CHECK/U0/U_IBERT_CORE/U_GTCPX_X0Y19/gt_txoutclk| BUFG                              | 269   |
+U_IBERT_CHECK/U0/U_IBERT_CORE/U_GTCPX_X0Y17/gt_txoutclk| BUFG                              | 269   |
+U_ICON/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL          | BUFG                              | 251   |
+U_IBERT_CHECK/U0/U_IBERT_CORE/U_GTCPX_X0Y17/gt_rxrecclk| BUFG                              | 637   |
+U_IBERT_CHECK/U0/U_IBERT_CORE/U_GTCPX_X0Y19/gt_rxrecclk| BUFG                              | 637   |
+U_ICON/U0/iUPDATE_OUT                                  | NONE(U_ICON/U0/U_ICON/U_iDATA_CMD)| 1     |
+-------------------------------------------------------+-----------------------------------+-------+
+INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -1
+
+   Minimum period: 4.462ns (Maximum Frequency: 224.138MHz)
+   Minimum input arrival time before clock: 1.383ns
+   Maximum output required time after clock: 0.375ns
+   Maximum combinational path delay: No path found
+
+=========================================================================
+Timing constraint: TS_J_CLK = PERIOD TIMEGRP "J_CLK" 30 nS HIGH 15 nS
+  Clock period: 1.753ns (frequency: 570.451MHz)
+  Total number of paths / destination ports: 4235 / 544
+  Number of failed paths / ports: 0 (0.00%) / 0 (0.00%)
+-------------------------------------------------------------------------
+Slack:                  13.247ns
+  Source:               U_ICON/U0/U_ICON/U_iDATA_CMD (FF)
+  Destination:          U_ICON/U0/U_ICON/U_SYNC/G_SYNC_WORD[6].I_EQ0.U_FDR (FF)
+  Data Path Delay:      1.753ns (Levels of Logic = 1)
+  Source Clock:         U_ICON/U0/iUPDATE_OUT rising at 0.000ns
+  Destination Clock:    U_ICON/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL rising at 30.000ns
+
+  Data Path: U_ICON/U0/U_ICON/U_iDATA_CMD (FF) to U_ICON/U0/U_ICON/U_SYNC/G_SYNC_WORD[6].I_EQ0.U_FDR (FF)
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.375   0.413  U0/U_ICON/U_iDATA_CMD (U0/U_ICON/iDATA_CMD)
+     INV:I->O              8   0.086   0.445  U0/U_ICON/U_SYNC/U_iDATA_CMD_n (U0/U_ICON/U_SYNC/iDATA_CMD_n)
+     FDR:R                     0.434          U0/U_ICON/U_SYNC/G_SYNC_WORD[6].I_EQ0.U_FDR
+    ----------------------------------------
+    Total                      1.753ns (0.895ns logic, 0.858ns route)
+                                       (51.1% logic, 48.9% route)
+
+=========================================================================
+Timing constraint: TS_U_TO_J = MAXDELAY FROM TIMEGRP "U_CLK" TO TIMEGRP "J_CLK" 15 nS
+  Clock period: 1.753ns (frequency: 570.451MHz)
+  Total number of paths / destination ports: 18 / 18
+  Number of failed paths / ports: 0 (0.00%) / 0 (0.00%)
+-------------------------------------------------------------------------
+Slack:                  13.247ns
+  Source:               U_ICON/U0/U_ICON/U_iDATA_CMD (FF)
+  Destination:          U_ICON/U0/U_ICON/U_SYNC/G_SYNC_WORD[6].I_EQ0.U_FDR (FF)
+  Data Path Delay:      1.753ns (Levels of Logic = 1)
+  Source Clock:         U_ICON/U0/iUPDATE_OUT rising at 0.000ns
+  Destination Clock:    U_ICON/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL rising at 15.000ns
+
+  Data Path: U_ICON/U0/U_ICON/U_iDATA_CMD (FF) to U_ICON/U0/U_ICON/U_SYNC/G_SYNC_WORD[6].I_EQ0.U_FDR (FF)
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.375   0.413  U0/U_ICON/U_iDATA_CMD (U0/U_ICON/iDATA_CMD)
+     INV:I->O              8   0.086   0.445  U0/U_ICON/U_SYNC/U_iDATA_CMD_n (U0/U_ICON/U_SYNC/iDATA_CMD_n)
+     FDR:R                     0.434          U0/U_ICON/U_SYNC/G_SYNC_WORD[6].I_EQ0.U_FDR
+    ----------------------------------------
+    Total                      1.753ns (0.895ns logic, 0.858ns route)
+                                       (51.1% logic, 48.9% route)
+
+=========================================================================
+Timing constraint: TS_U_TO_U = MAXDELAY FROM TIMEGRP "U_CLK" TO TIMEGRP "U_CLK" 15 nS
+  Clock period: 1.284ns (frequency: 778.816MHz)
+  Total number of paths / destination ports: 1 / 1
+  Number of failed paths / ports: 0 (0.00%) / 0 (0.00%)
+-------------------------------------------------------------------------
+Slack:                  13.716ns
+  Source:               U_ICON/U0/U_ICON/U_iDATA_CMD (FF)
+  Destination:          U_ICON/U0/U_ICON/U_iDATA_CMD (FF)
+  Data Path Delay:      1.284ns (Levels of Logic = 1)
+  Source Clock:         U_ICON/U0/iUPDATE_OUT rising at 0.000ns
+  Destination Clock:    U_ICON/U0/iUPDATE_OUT rising at 15.000ns
+
+  Data Path: U_ICON/U0/U_ICON/U_iDATA_CMD (FF) to U_ICON/U0/U_ICON/U_iDATA_CMD (FF)
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.375   0.413  U0/U_ICON/U_iDATA_CMD (U0/U_ICON/iDATA_CMD)
+     INV:I->O              1   0.086   0.399  U0/U_ICON/U_iDATA_CMD_n (U0/U_ICON/iDATA_CMD_n)
+     FDC:D                     0.011          U0/U_ICON/U_iDATA_CMD
+    ----------------------------------------
+    Total                      1.284ns (0.472ns logic, 0.812ns route)
+                                       (36.8% logic, 63.2% route)
+
+=========================================================================
+Timing constraint: TS_J_TO_D = FROM TIMEGRP "J_CLK" TO TIMEGRP "D_CLK" TIG;
+  Clock period: 2.302ns (frequency: 434.405MHz)
+  Total number of paths / destination ports: 4098 / 512
+  Number of failed paths / ports: 0 (0.00%) / 0 (0.00%)
+-------------------------------------------------------------------------
+Delay:                  -27.698ns
+  Source:               U_ICON/U0/U_ICON/U_SYNC/G_SYNC_WORD[0].I_NE0.U_FDR (FF)
+  Destination:          U_ICON/U0/U_ICON/U_SYNC/U_SYNC (FF)
+  Data Path Delay:      2.302ns (Levels of Logic = 2)
+  Source Clock:         U_ICON/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL rising at 0.000ns
+  Destination Clock:    U_ICON/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL rising at 0.000ns
+
+  Data Path: U_ICON/U0/U_ICON/U_SYNC/G_SYNC_WORD[0].I_NE0.U_FDR (FF) to U_ICON/U0/U_ICON/U_SYNC/U_SYNC (FF)
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              1   0.375   0.638  U0/U_ICON/U_SYNC/G_SYNC_WORD[0].I_NE0.U_FDR (U0/U_ICON/U_SYNC/iSYNC_WORD<0>)
+     LUT4:I0->O            1   0.068   0.491  U0/U_ICON/U_SYNC/U_GOT_SYNC_L (U0/U_ICON/U_SYNC/iGOT_SYNC_LOW)
+     LUT2:I0->O            1   0.068   0.399  U0/U_ICON/U_SYNC/U_GOT_SYNC (U0/U_ICON/U_SYNC/iGOT_SYNC)
+     FDRE:CE                   0.263          U0/U_ICON/U_SYNC/U_SYNC
+    ----------------------------------------
+    Total                      2.302ns (0.774ns logic, 1.528ns route)
+                                       (33.6% logic, 66.4% route)
+
+=========================================================================
+Timing constraint: TS_D_TO_J = FROM TIMEGRP "D_CLK" TO TIMEGRP "J_CLK" TIG;
+  Clock period: 1.753ns (frequency: 570.451MHz)
+  Total number of paths / destination ports: 1251 / 396
+  Number of failed paths / ports: 0 (0.00%) / 0 (0.00%)
+-------------------------------------------------------------------------
+Delay:                  -13.247ns
+  Source:               U_ICON/U0/U_ICON/U_iDATA_CMD (FF)
+  Destination:          U_ICON/U0/U_ICON/U_SYNC/G_SYNC_WORD[6].I_EQ0.U_FDR (FF)
+  Data Path Delay:      1.753ns (Levels of Logic = 1)
+  Source Clock:         U_ICON/U0/iUPDATE_OUT rising at 0.000ns
+  Destination Clock:    U_ICON/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL rising at 0.000ns
+
+  Data Path: U_ICON/U0/U_ICON/U_iDATA_CMD (FF) to U_ICON/U0/U_ICON/U_SYNC/G_SYNC_WORD[6].I_EQ0.U_FDR (FF)
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDC:C->Q              3   0.375   0.413  U0/U_ICON/U_iDATA_CMD (U0/U_ICON/iDATA_CMD)
+     INV:I->O              8   0.086   0.445  U0/U_ICON/U_SYNC/U_iDATA_CMD_n (U0/U_ICON/U_SYNC/iDATA_CMD_n)
+     FDR:R                     0.434          U0/U_ICON/U_SYNC/G_SYNC_WORD[6].I_EQ0.U_FDR
+    ----------------------------------------
+    Total                      1.753ns (0.895ns logic, 0.858ns route)
+                                       (51.1% logic, 48.9% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock U_IBERT_CHECK/U0/U_IBERT_CORE/U_GTCPX_X0Y17/gt_rxrecclk
+-------------------------------------------------------+---------+---------+---------+---------+
+                                                       | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                                           |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------------------------------------------+---------+---------+---------+---------+
+U_IBERT_CHECK/U0/U_IBERT_CORE/U_GTCPX_X0Y17/gt_rxrecclk|    2.878|         |         |         |
+sys_clk                                                |    2.018|         |         |         |
+-------------------------------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock U_IBERT_CHECK/U0/U_IBERT_CORE/U_GTCPX_X0Y17/gt_txoutclk
+-------------------------------------------------------+---------+---------+---------+---------+
+                                                       | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                                           |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------------------------------------------+---------+---------+---------+---------+
+U_IBERT_CHECK/U0/U_IBERT_CORE/U_GTCPX_X0Y17/gt_txoutclk|    2.538|         |         |         |
+sys_clk                                                |    2.018|         |         |         |
+-------------------------------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock U_IBERT_CHECK/U0/U_IBERT_CORE/U_GTCPX_X0Y19/gt_rxrecclk
+-------------------------------------------------------+---------+---------+---------+---------+
+                                                       | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                                           |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------------------------------------------+---------+---------+---------+---------+
+U_IBERT_CHECK/U0/U_IBERT_CORE/U_GTCPX_X0Y19/gt_rxrecclk|    2.878|         |         |         |
+sys_clk                                                |    2.018|         |         |         |
+-------------------------------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock U_IBERT_CHECK/U0/U_IBERT_CORE/U_GTCPX_X0Y19/gt_txoutclk
+-------------------------------------------------------+---------+---------+---------+---------+
+                                                       | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                                           |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------------------------------------------+---------+---------+---------+---------+
+U_IBERT_CHECK/U0/U_IBERT_CORE/U_GTCPX_X0Y19/gt_txoutclk|    2.245|         |         |         |
+sys_clk                                                |    2.018|         |         |         |
+-------------------------------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock U_ICON/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL
+---------------------------------------------+---------+---------+---------+---------+
+                                             | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                                 |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------------------------------+---------+---------+---------+---------+
+U_ICON/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL|    4.462|         |         |         |
+U_ICON/U0/iUPDATE_OUT                        |    1.753|         |         |         |
+sys_clk                                      |    2.474|         |         |         |
+---------------------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock U_ICON/U0/iUPDATE_OUT
+---------------------+---------+---------+---------+---------+
+                     | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock         |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------------+---------+---------+---------+---------+
+U_ICON/U0/iUPDATE_OUT|    1.284|         |         |         |
+---------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock sys_clk
+-------------------------------------------------------+---------+---------+---------+---------+
+                                                       | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                                           |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------------------------------------------+---------+---------+---------+---------+
+U_IBERT_CHECK/U0/U_IBERT_CORE/U_GTCPX_X0Y17/gt_rxrecclk|    1.439|         |         |         |
+U_IBERT_CHECK/U0/U_IBERT_CORE/U_GTCPX_X0Y17/gt_txoutclk|    0.791|         |         |         |
+U_IBERT_CHECK/U0/U_IBERT_CORE/U_GTCPX_X0Y19/gt_rxrecclk|    1.439|         |         |         |
+U_IBERT_CHECK/U0/U_IBERT_CORE/U_GTCPX_X0Y19/gt_txoutclk|    0.791|         |         |         |
+U_ICON/U0/U_ICON/I_YES_BSCAN.U_BS/iDRCK_LOCAL          |    3.590|         |         |         |
+sys_clk                                                |    4.205|         |         |         |
+-------------------------------------------------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 23.00 secs
+Total CPU time to Xst completion: 22.97 secs
+ 
+--> 
+
+Total memory usage is 305356 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :    2 (   0 filtered)
+Number of infos    :   80 (   0 filtered)
+
